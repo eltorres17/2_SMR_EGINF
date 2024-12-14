@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Contenido</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f785;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- Título principal de la tabla -->
+        <caption>Tabla de Contenido Pablo Torres Serván</caption>
+
+        <!-- Encabezado de la tabla -->
+        <thead>
+            <tr>
+                <th colspan="3">Contenido del Libro</th>
+            </tr>
+            <tr>
+                <th>Capítulo</th>
+                <th>Título del Capítulo</th>
+                <th>Páginas</th>
+            </tr>
+        </thead>
+
+        <!-- Cuerpo de la tabla -->
+        <tbody>
+            <!-- Capítulo 1 -->
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Introducción</td>
+                <td>1-10</td>
+            </tr>
+            <tr>
+                <td>Conceptos Básicos</td>
+                <td>11-20</td>
+            </tr>
+
+            <!-- Capítulo 2 -->
+            <tr>
+                <td rowspan="3">2</td>
+                <td>Primeros Pasos</td>
+                <td>21-30</td>
+            </tr>
+            <tr>
+                <td>Exploración Detallada</td>
+                <td>31-40</td>
+            </tr>
+            <tr>
+                <td>Ejercicios</td>
+                <td>41-50</td>
+            </tr>
+
+
+        <!-- Pie de la tabla -->
+        <tfoot>
+            <tr>
+                <td colspan="3">Fin de la Tabla de Contenido</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

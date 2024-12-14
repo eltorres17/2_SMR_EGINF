@@ -1,0 +1,14 @@
+/*  cabecera  */
+.header {
+    width: 20%;
+    margin: auto;
+}
+
+/*  Figura  */
+.figure{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
